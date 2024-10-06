@@ -15,3 +15,5 @@ def update_user_view(request,id):
         return JsonResponse({"status": "User update message sent"})
     except User.DoesNotExist:
         return JsonResponse({"error": "User not found"}, status=404)
+    #hhn
+
